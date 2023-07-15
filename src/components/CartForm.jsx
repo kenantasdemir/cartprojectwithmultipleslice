@@ -24,46 +24,7 @@ function CartForm() {
   }
 
   return (
-/*
-    <div className="container">
 
-
-      <div className='row mt-3'>
-            <h1>Sepete öğe ekle</h1>
-      </div>
-
-      <div className="row mt-2">
-
-
-        <form action="" className='d-inline-block'>
-          
-        <div className="col">
-          <label htmlFor="ad">Ad:</label>
-          <input id="ad" type="text" onChange={(event)=>dispatch(changeName(event.target.value))} className="form-control" />
-        </div>
-
-        <div className="col">
-          <label htmlFor="aciklama">Açıklama:</label>
-          <input id="aciklama" onChange={(event)=>dispatch(changeDescription(event.target.value))} type="text" className="form-control" />
-        </div>
-
-        <div className="col">
-          <label htmlFor="fiyat">Fiyat:</label>
-          <input id="fiyat" type="text" onChange={(event)=>dispatch(changeCost(event.target.value))} className="form-control" />
-        </div>
-
-
-
-        <div className='col'>
-              <button className='btn btn-success mt-4'>Kaydet</button>
-        </div>
-        </form>
-
-    
-      </div>
-    </div>
-
-    */
 <div className="container">
       <div className='row mt-3'>
         <h1>Sepete öğe ekle</h1>
