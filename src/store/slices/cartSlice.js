@@ -16,6 +16,7 @@ const cartSlice = createSlice({
                 id:nanoid()
             })
         },
+        //Ürün objesi doğrudan state.data dizisine eklenir.
 
         changeSearchTerm(state,action){
             state.searchTerm = action.payload
