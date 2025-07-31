@@ -29,7 +29,7 @@ const formSlice = createSlice({
 })
 //EXTRA REDUCERS
 //özellikle asenkron işlemleri (örneğin API çağrıları) veya başka slice'lardan gelen aksiyonları bir slice içinde yakalamak için kullanılır.
-
+//extraReducers, slice dışı olayları dinlemek ve onlara tepki vermek için kullanılır. Özellikle API çağrıları gibi durumlarda oldukça kullanışlıdır.
 
 export const {changeName,changeDescription,changeCost} = formSlice.actions
 
